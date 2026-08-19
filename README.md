@@ -28,7 +28,7 @@ Across the three identity probes, the conversation-conditioned responses were fa
 | Turn 36 | 0.1432 | 0.0863 | **+0.0569** |
 | Turn 72 | 0.1347 | 0.0872 | **+0.0475** |
 
-![Throughline v0.2 identity comparison](results/throughline_v02_20260819_165248/identity_drift.png)
+![Throughline v0.2 identity response divergence](results/throughline_v02_20260819_165248/identity_response_divergence.svg)
 
 The effect was not uniform across every question. **Factual identity stayed highly stable**, while situational and self-concept responses showed more context-conditioned separation. That distinction is more useful than treating all semantic movement as a single notion of “personality drift.”
 
@@ -157,7 +157,7 @@ Each run writes a timestamped directory under `results/` containing:
 - `baseline_answers.json` — repeated baseline samples
 - `transcript.md` — full simulated interaction
 - `run_metadata.json` — model and protocol configuration
-- `identity_drift.png` — compact visualization
+- `identity_response_divergence.svg` — reviewed visualization for the completed pilot
 
 ## Limitations
 

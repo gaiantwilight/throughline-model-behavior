@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="480" viewBox="0 0 800 480">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#111827}.title{font-size:22px;font-weight:700}.axis{font-size:13px}.small{font-size:12px}.legend{font-size:13px}</style>
+<text x="400.0" y="32" text-anchor="middle" class="title">Throughline v0.2 — Identity response divergence vs. control</text>
+<line x1="85" y1="405.0" x2="760" y2="405.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="73" y="409.0" text-anchor="end" class="small">0.00</text>
+<line x1="85" y1="320.0" x2="760" y2="320.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="73" y="324.0" text-anchor="end" class="small">0.04</text>
+<line x1="85" y1="235.0" x2="760" y2="235.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="73" y="239.0" text-anchor="end" class="small">0.08</text>
+<line x1="85" y1="150.0" x2="760" y2="150.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="73" y="154.0" text-anchor="end" class="small">0.12</text>
+<line x1="85" y1="65.0" x2="760" y2="65.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="73" y="69.0" text-anchor="end" class="small">0.16</text>
+<line x1="85" y1="65" x2="85" y2="405" stroke="#374151" stroke-width="1.4"/>
+<line x1="85" y1="405" x2="760" y2="405" stroke="#374151" stroke-width="1.4"/>
+<line x1="85.0" y1="405" x2="85.0" y2="411" stroke="#374151"/>
+<text x="85.0" y="429" text-anchor="middle" class="axis">6</text>
+<line x1="391.8" y1="405" x2="391.8" y2="411" stroke="#374151"/>
+<text x="391.8" y="429" text-anchor="middle" class="axis">36</text>
+<line x1="760.0" y1="405" x2="760.0" y2="411" stroke="#374151"/>
+<text x="760.0" y="429" text-anchor="middle" class="axis">72</text>
+<text x="400.0" y="460" text-anchor="middle" class="axis">Conversation turn</text>
+<text x="20" y="240.0" text-anchor="middle" transform="rotate(-90 20 240.0)" class="axis">Cosine distance from baseline centroid</text>
+<polyline points="85.0,157.2 391.8,100.7 760.0,118.8" fill="none" stroke="#2563eb" stroke-width="3"/>
+<polyline points="85.0,245.6 391.8,221.6 760.0,219.7" fill="none" stroke="#d97706" stroke-width="3"/>
+<circle cx="85.0" cy="157.2" r="5" fill="#2563eb"/>
+<circle cx="391.8" cy="100.7" r="5" fill="#2563eb"/>
+<circle cx="760.0" cy="118.8" r="5" fill="#2563eb"/>
+<circle cx="85.0" cy="245.6" r="5" fill="#d97706"/>
+<circle cx="391.8" cy="221.6" r="5" fill="#d97706"/>
+<circle cx="760.0" cy="219.7" r="5" fill="#d97706"/>
+<line x1="475" y1="58" x2="503" y2="58" stroke="#2563eb" stroke-width="3"/><circle cx="489" cy="58" r="4" fill="#2563eb"/><text x="511" y="63" class="legend">Conversation-conditioned</text>
+<line x1="475" y1="83" x2="503" y2="83" stroke="#d97706" stroke-width="3"/><circle cx="489" cy="83" r="4" fill="#d97706"/><text x="511" y="88" class="legend">No-history control</text>
+</svg>

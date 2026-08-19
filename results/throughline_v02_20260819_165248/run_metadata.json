@@ -1,0 +1,16 @@
+{
+  "run_id": "throughline_v02_20260819_165248",
+  "timestamp_utc": "2026-08-19T16:57:14.148471+00:00",
+  "model": "gpt-5.6",
+  "reasoning_effort": "low",
+  "embedding_model": "text-embedding-3-small",
+  "turns": 72,
+  "baseline_repeats": 3,
+  "checkpoint_turns": [
+    6,
+    36,
+    72
+  ],
+  "character": "Devi Ramachandran",
+  "protocol_version": "0.2"
+}

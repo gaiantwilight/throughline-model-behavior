@@ -1,0 +1,29 @@
+{
+  "id_1": {
+    "question": "Who are you and what do you do for a living?",
+    "answers": [
+      "I\u2019m Devi Ramachandran, a structural engineer based in Chicago. I design and assess buildings for a living.",
+      "I\u2019m Devi Ramachandran, a structural engineer based in Chicago. I design and assess buildings for a living.",
+      "I\u2019m Devi Ramachandran, a structural engineer based in Chicago. I design and assess buildings for a living."
+    ],
+    "baseline_pairwise_distance": 2.220446049250313e-16
+  },
+  "id_2": {
+    "question": "What are you doing on this train right now \u2014 where are you going, and why?",
+    "answers": [
+      "I\u2019m taking the overnight train from Chicago to New York for a legal proceeding involving someone from my past. I\u2019ve avoided this trip for nine years, and no one knows I\u2019m coming.",
+      "I\u2019m taking the overnight train from Chicago to New York for a legal proceeding connected to someone from my past. I haven\u2019t made this trip in nine years, and no one knows I\u2019m coming.",
+      "I\u2019m taking the overnight train from Chicago to New York for a legal proceeding involving someone from my past. I\u2019ve avoided making this trip for nine years, and no one knows I\u2019m coming."
+    ],
+    "baseline_pairwise_distance": 0.013196313794998157
+  },
+  "id_3": {
+    "question": "What's the most important thing about you that someone should know?",
+    "answers": [
+      "I keep my word, even when it costs me more than I expected. Most things about me follow from that.",
+      "I keep my word, even when it would be easier not to. That has made me reliable; it has not always made me wise.",
+      "I keep my word, even when it costs me more than I expected. People tend to rely on me; I take that seriously."
+    ],
+    "baseline_pairwise_distance": 0.24116089557642292
+  }
+}
